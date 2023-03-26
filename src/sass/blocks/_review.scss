@@ -1,0 +1,121 @@
+.review {
+    padding: 120px 0;
+    &__wrapper {
+        max-width: 750px;
+    }
+    &__subtitle {
+        margin-top: 12px;
+    }
+    &__text {
+        margin-top: 23px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        opacity: 0.7;
+    }
+    &__carousel {
+        margin-top: 20px;
+    }
+    &__item {
+        padding-top: 73px;
+
+        &-photo {
+            width: 50px;
+            height: 50px;
+            display: block;
+            margin: 0 auto;
+            position: relative;
+            img {
+                width: 100%;
+            }
+            &:before {
+                content:'';
+                background: url("../icons/vector_small.svg") no-repeat center/cover;
+                display: block;
+                width: 120px;
+                height: 100px;
+                position: absolute;
+                top: -60px;
+                left: -60px;
+                z-index: -1;
+            }
+        }
+        &-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #000000;
+            width: 506px;
+            margin: 41px auto 20px;
+        }
+        &-stars {
+            display: flex;
+            justify-content: center;
+            img {
+                display: flex;
+                width: 15px !important;
+                height: 15px;
+            }
+        }
+        &-name {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+            margin-top: 32px;
+        }
+        &-subname {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #000000;
+            opacity: 0.7;
+            margin-top: 6px;
+        }
+
+    }
+    .owl-carousel {
+        position: relative;
+        .owl-nav {
+            display: inline-block;
+            .owl-prev {
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                &:before{
+                    content:'';
+                    background: url("../icons/arrow_left.svg") no-repeat center/cover;
+                    width: 12px;
+                    height: 20px;
+                    display: flex;
+                    
+                }
+            }
+            .owl-next {
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+
+                &:before{
+                    content:'';
+                    background: url("../icons/arrow_right.svg") no-repeat center/cover;
+                    width: 12px;
+                    height: 20px;
+                    display: flex;
+                    
+                }
+            }
+        }
+    }
+}

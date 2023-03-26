@@ -1,0 +1,44 @@
+.banner {
+    min-height: 488px;
+    &__wrapper {
+        position: relative;
+    }
+    &__descr {
+        padding: 156px 0 0 0;
+        width: 555px;
+    }
+    &__img {
+        position: absolute;
+        width: 540px;
+        display: block;
+        top: -45px;
+        right: 25px;
+        &-pan {
+            width: 100%;
+        }
+    }
+    &__title {
+        font-family: 'Philosopher';
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 58px;
+        color: #150C01;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #150C01;
+        opacity: 0.7;
+        margin: 42px 0 50px 0;
+    }
+    &__btn {
+        margin-right: 30px;
+        height: 60px;
+        &_mr0  {
+            margin-right: 0;
+        }
+    }
+    
+
+}

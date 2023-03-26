@@ -1,0 +1,22 @@
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+}
+.subtitle {
+    font-family: 'Philosopher';
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 35px;
+    text-align: center;
+    color: #150C01;
+    &_fz25 {
+        font-size: 25px;
+        line-height: 24px;
+    }
+}

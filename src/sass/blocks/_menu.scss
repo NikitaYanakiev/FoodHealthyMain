@@ -1,0 +1,92 @@
+.menu {
+    padding-bottom: 120px;
+    &__subtitle {
+        margin-top: 10px;
+    }
+    &__text {
+        text-align: center;
+        width: 750px;
+        margin: 25px auto 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #150C01;
+        opacity: 0.7;
+    }
+    &__wrapper {
+        margin: 60px auto 50px auto;
+        display: grid;
+        grid-template: repeat(2, minmax(446px, auto)) / repeat(3, minmax(360px, auto));
+        gap: 30px;
+    }
+    &__item {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 75px 10px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        &-img {
+            width: 100%;
+            img {
+                width: 100%;
+                border-radius: 76px 10px 76px 0px;
+            }
+            
+        }
+        &-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 25px 0 25px;
+            margin-top: 21px;
+        }
+        &-title {
+            font-family: 'Philosopher';
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 24px;
+            color: #150C01;
+        }
+        &-price {
+            font-family: 'Philosopher';
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 24px;
+            color: #150C01;
+        }
+        &-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #150C01;
+            opacity: 0.7;
+            padding: 0 25px 0 25px;
+            margin-top: 20px;
+            flex: 1 1 auto;
+        }
+        &-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 0 0 0;
+            padding: 0 25px 25px 25px;
+        }
+        &-add {
+            width: 36px;
+            height: 34px;
+            background-color: $main-color;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            img {
+                width: 12px;
+                display: block;
+            }
+        }
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+    }
+}

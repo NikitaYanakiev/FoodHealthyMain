@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@400;500&display=swap');
+@import 'libs/owl.carousel.min';
+@import 'libs/owl.theme.default.min';
+@import 'base/mixins';
+@import 'base/variables';
+
+
+* {
+    font-family: 'Roboto', 'Philosopher';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto
+}
+
+@import 'blocks/header';
+@import 'blocks/btn';
+@import 'blocks/banner';
+@import 'blocks/title';
+@import 'blocks/features';
+@import 'blocks/about';
+@import 'blocks/menu';
+@import 'blocks/mobile';
+@import 'blocks/review';
+@import 'blocks/owl-carousel';
+@import 'blocks/contact';
+@import 'blocks/footer';
+@import 'blocks/preloader';
+
+@import 'blocks/media';
